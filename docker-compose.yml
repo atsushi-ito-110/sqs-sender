@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  sqs-sender:
+    build: .
+    tty: true
+    volumes:
+      - .:/app
